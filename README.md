@@ -78,7 +78,3 @@ Updating status to anything else stops the reminder.
 | `POST` | `/applications/:id/attachment` | Get pre-signed S3 URL for uploading job description PDF |
 | `GET` | `/metrics` | Prometheus metrics endpoint |
 
----
-n runs outside Docker during development for fast restarts.
-
-Requires free [SendGrid API key](https://sendgrid.com/free/), [AWS free tier](https://aws.amazon.com/free/) for S3, and a PostgreSQL instance.
