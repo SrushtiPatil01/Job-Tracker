@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  # Scrape the API server metrics.
+  - job_name: "job-tracker-api"
+    static_configs:
+      - targets: ["host.docker.internal:8080"]
+
+  # Scrape the consumer metrics.
+  - job_name: "job-tracker-consumer"
+    static_configs:
+      - targets: ["host.docker.internal:9091"]
