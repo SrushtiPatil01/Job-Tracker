@@ -4,6 +4,8 @@
 
 Job application tracking API with Kafka-based reminder pipeline, Redis idempotency, and Prometheus observability.
 
+Built With: Go · goroutines · Apache Kafka ·  Redis ·  PostgreSQL ·  AWS S3 ·  Prometheus ·  Docker
+
 ---
 
 ## What This Project Does
